@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    font-weight: inherit;
+  }
+
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    -webkit-appearance: button; /* 1 */
+    background-color: var(--n-color); /* 2 */
+    background-image: none; /* 2 */
+  }
+}
