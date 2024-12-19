@@ -3,6 +3,6 @@
 <template>
   <main>
     <!-- <TheWelcome /> -->
-    <div class="text-8xl">sfsfsof</div>
+    <div class="text-8xl">Home View</div>
   </main>
 </template>
